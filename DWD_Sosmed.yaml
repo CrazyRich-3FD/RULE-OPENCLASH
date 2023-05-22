@@ -15,6 +15,9 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.biz
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-KEYWORD,whatsapp
+  - PROCESS-NAME,com.whatsapp
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,wa.me
   - IP-CIDR,108.168.174.0/16
   - IP-CIDR,158.85.224.160/27
   - IP-CIDR,158.85.46.128/27
@@ -30,6 +33,9 @@ payload:
   - IP-CIDR,54.242.0.0/15
   - IP-CIDR,69.171.235.0/16
   - IP-CIDR,75.126.150.0/16
+  - IP-CIDR,66.111.48.0/22
+  - IP-CIDR6,2620:13e:1000::/44
+  - DST-PORT,3478
   - DST-PORT,5228
   - DST-PORT,5222
   - DST-PORT,38211
@@ -97,6 +103,8 @@ payload:
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telesco.pe
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,org.telegram.messenger.DefaultIcon
   - IP-CIDR,91.108.4.0/22
   - IP-CIDR,91.108.8.0/22
   - IP-CIDR,91.108.12.0/22
@@ -143,4 +151,29 @@ payload:
   # JOOX
   - DOMAIN-SUFFIX,joox.com
   - DOMAIN-KEYWORD,jooxweb-api
+  
+  # Sosmed
+  - PROCESS-NAME,com.facebook.katana
+  - PROCESS-NAME,com.facebook.katana.LoginActivity
+  - PROCESS-NAME,com.instagram.android
+  - PROCESS-NAME,com.instagram.android.activity.MainTabActivity
+  - PROCESS-NAME,com.facebook.orca
+  - PROCESS-NAME,com.facebook.orca.auth.StartScreenActivity
+  - DOMAIN-KEYWORD,fb.me
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,messenger
+  - DOMAIN-KEYWORD,ig.me
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,path
+  - DOMAIN-KEYWORD,discus
+  - DOMAIN-KEYWORD,line
+  - DOMAIN-KEYWORD,snapchat
+  - DOMAIN-KEYWORD,wechat
+  - DOMAIN-KEYWORD,kuaishou
+  - DOMAIN-KEYWORD,weibo
+  - DOMAIN-KEYWORD,qq
+  - DOMAIN-KEYWORD,douyin
+  - DOMAIN-KEYWORD,airindo
 
