@@ -1,0 +1,2 @@
+# Rule-OpenClash
+OCRULE
