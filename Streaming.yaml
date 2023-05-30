@@ -311,13 +311,4 @@ payload:
   - DOMAIN-KEYWORD,streamlabs
   - DOMAIN-KEYWORD,twitch
   - DOMAIN-KEYWORD,obsproject
-  - DOMAIN-SUFFIX,biliintl.com
-  - DOMAIN-KEYWORD,biliintl
-  - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,bilivideo.com
-  - DOMAIN-SUFFIX,bstarstatic.com
-  - DOMAIN-KEYWORD,bilibili
-  - DOMAIN-KEYWORD,bilivideo
-  - DOMAIN-KEYWORD,bstarstatic
-  - DST-PORT,8000
   # MATCH is not necessary here  
