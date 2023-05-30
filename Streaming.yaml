@@ -313,5 +313,10 @@ payload:
   - DOMAIN-KEYWORD,obsproject
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-KEYWORD,biliintl
-  - DOMAIN-KEYWORD,bilii
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bstarstatic.com
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,bilivideo
+  - DOMAIN-KEYWORD,bstarstatic
   # MATCH is not necessary here  
