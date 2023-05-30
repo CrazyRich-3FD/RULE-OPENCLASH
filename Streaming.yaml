@@ -319,4 +319,5 @@ payload:
   - DOMAIN-KEYWORD,bilibili
   - DOMAIN-KEYWORD,bilivideo
   - DOMAIN-KEYWORD,bstarstatic
+  - DST-PORT,8000
   # MATCH is not necessary here  
